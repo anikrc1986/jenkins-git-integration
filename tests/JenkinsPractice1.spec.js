@@ -9,6 +9,7 @@ test('Test Practice 1', async({page})=>{
     await expect(await page.getByRole('link', { name: 'Welcome anikrc' })).toBeVisible();
     await page.getByRole('link', { name: 'Log out' }).click();
     await page.close();
+    console.log("Pushing code to Git");
     console.log("End of the execution of Test Pracice 1")
 })
 
@@ -21,6 +22,7 @@ test('Test Practice 2', async({page})=>{
     await expect(await page.getByRole('link', { name: 'Welcome anikrc' })).toBeVisible();
     await page.getByRole('link', { name: 'Log out' }).click();
     await page.close();
+    console.log("Pushing code to Git");
     console.log("End of the execution of Test Pracice 2")
 })
 
@@ -33,5 +35,6 @@ test('Test Practice 3', async({page})=>{
     await expect(await page.getByRole('link', { name: 'Welcome anikrc' })).toBeVisible();
     await page.getByRole('link', { name: 'Log out' }).click();
     await page.close();
+    console.log("Pushing code to Git");
     console.log("End of the execution of Test Pracice 3")
 })
